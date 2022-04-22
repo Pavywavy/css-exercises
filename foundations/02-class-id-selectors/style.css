@@ -3,17 +3,17 @@ p {
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
-.NumberTwo {
-    color:blue;
+#NumberTwo {
+    color: blue;
     font-size: 36px;
 }
 
-.NumberThree {
+#NumberThree {
     font-size: 24px;
 }
 
 .NumberFour {
-    background-color: ##80EF11;
+    background-color: #80EF11;
     font-size: 24px;
-    font-style: bold;
+    font-weight: bold;
 }
