@@ -33,5 +33,7 @@ button {
   background: white;
   border: 1px solid #eee;
   padding: 8px 24px;
-  display:inline-block;
+  display: block;
+  margin: auto;
+
 }
