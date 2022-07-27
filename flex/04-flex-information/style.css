@@ -7,10 +7,30 @@ img {
   height: 100px;
 }
 
+.imagesGroup {
+  display: flex;
+  padding: 0 5em;
+  margin: 0;
+  gap: 52px;
+}
+
+.text {
+  text-align: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
 }
+.flowerGroupOne, .flowerGroupTwo, .flowerGroupThree, .flowerGroupFour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+ }
 
 /* do not edit this footer */
 .footer {
