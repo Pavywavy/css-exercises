@@ -22,7 +22,6 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 16px;
   display: flex;
-  justify-content: column;
   gap: 16px;
 }
 
@@ -71,5 +70,9 @@ button.cancel {
 
 .headerGroup {
   display: flex;
-  justify-content: row;
+  justify-content: space-between;
+}
+
+.columnTwo {
+
 }
