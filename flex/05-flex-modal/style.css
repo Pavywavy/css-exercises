@@ -69,10 +69,14 @@ button.cancel {
 }
 
 .headerGroup {
+  font-size: 18px;
+  font-weight: bold;
   display: flex;
   justify-content: space-between;
 }
 
 .columnTwo {
-
+display: flex;
+flex-direction: column;
+gap: 16px;
 }
