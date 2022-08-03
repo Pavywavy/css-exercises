@@ -13,6 +13,10 @@ body {
   list-style-type: none;
  }
  
+ a {
+  color: black;
+  text-decoration: none;
+ }
 
 img {
   width: 600px;
