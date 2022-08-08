@@ -11,11 +11,15 @@ body {
 
  ul {
   list-style-type: none;
+  margin: 0;
+  padding: 16px;
+  display: flex;
  }
  
  a {
   color: black;
   text-decoration: none;
+  padding: 20px;
  }
 
 img {
@@ -39,5 +43,10 @@ input {
 
 .topLinksGroup {
   display: flex;
-  justify-content: row;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
 }
