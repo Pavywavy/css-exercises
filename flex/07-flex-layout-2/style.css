@@ -7,6 +7,13 @@ body {
   justify-content: space-between;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 1em;
+  justify-content: space-between;
+}
+
 .mainContent {
   display: flex;
   justify-content: space-between;
@@ -15,8 +22,6 @@ body {
 
 .cardGroup {
   display: flex;
-  flex-wrap: wrap;
-
 }
 
 .header {
@@ -32,15 +37,33 @@ body {
 }
 
 .sidebar {
-  width: 300px;
+  width:300 px;
   background: royalblue;
 }
 
 .sidebar a {
+  color: white;
   text-decoration: none;
 }
+
+.sidebar ul {
+display: flex;
+flex-direction: column;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
